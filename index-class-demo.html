@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Character encoding -->
+        <meta charset="UTF-8">
+        <!-- Title tag -->
+        <title>HTML Presentation - Sustainable Communities</title>
+        <!-- Viewport set to be mobile-friendly -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- W3.CSS style -->
+        <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!-- Custom style -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <!-- Web site description -->
+        <meta name="description" content="This is where you put your description about your website. It is about 320 characters that a user sees in your search query.">
+    </head>
+
+    <body class="w3-black">
+
+        <!-- Title Slide -->
+        <section id="slide-1" class="mySlides">
+
+            <div class="w3-container w3-display-middle">
+                <h1>Sustainable Communities</h1>
+            </div>
+
+        </section>
+
+        <!-- Full Screen Image -->
+        <section id="slide-2" class="mySlides fs-img">
+
+            <div class="w3-container w3-display-topleft black-trsp">
+                <h1>Full Screen Image</h1>
+            </div>
+
+        </section>
+
+        <!-- Full Screen Video -->
+        <section id="slide-3" class="mySlides">
+
+            <!-- The video -->
+            <video autoplay muted loop id="myVideo">
+                <source src="img/stars-time.mp4" type="video/mp4">
+            </video>
+
+            <!-- Optional: some overlay text to describe the video -->
+            <div class="content">
+                <h1>Heading</h1>
+                <p>Lorem ipsum...</p>
+                <!-- Use a button to pause/play the video with JavaScript -->
+                <button id="myBtn" onclick="myFunction()">Pause</button>
+            </div>
+
+        </section>
+
+        <!-- Two-Column Simple Responsive -->
+        <section id="slide-4" class="mySlides">
+
+            <div class="w3-row"> 
+                <div class="w3-container">
+                    <h1>Simple Responsive</h1>
+                </div>
+            </div>
+
+            <div class="w3-row">
+                <div class="w3-half w3-blue">
+                    <h3>w3-half</h3>
+                </div>
+
+                <div class="w3-half w3-green">
+                    <h3>w3-half</h3>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Responsive Grid -->
+        <section id="slide-5" class="mySlides">
+
+            <div class="w3-row"> 
+                <div class="w3-container">
+                    <h1>Responsive Grid</h1>
+                </div>
+            </div>
+
+            <div class="w3-row">
+
+                <div class="w3-col l4 m6 s12 w3-red">
+                    <h3>w3-col l4 m6 s12</h3>
+                </div>
+
+                <div class="w3-col l4 m6 s12 w3-blue">
+                    <h3>w3-col l4 m6 s12</h3>
+                </div>
+
+                <div class="w3-col l4 m6 s12 w3-green">
+                    <h3>w3-col l4 m6 s12</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Two-Column Cell Mobile -->
+        <section id="slide-6" class="mySlides">
+
+            <div class="w3-row"> 
+                <div class="w3-container">
+                    <h1>Two-Column Cell Mobile</h1>
+                </div>
+            </div>
+
+            <div class="w3-cell-row">
+
+                <div class="w3-cell w3-red w3-container w3-mobile">
+                    <h3>w3-cell</h3>
+                </div>
+
+                <div class="w3-cell w3-blue w3-container w3-mobile">
+                    <h3>w3-cell</h3>
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+
+        <!-- slide indicators -->
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+
+        <!-- Javascript -->
+        <script src="js/slideshow.js"></script>
+        <script src="js/video.js"></script>
+    </body>
+</html>
